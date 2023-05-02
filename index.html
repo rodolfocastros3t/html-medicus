@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags requeridas -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <!-- Favicon -->
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900&display=swap" rel="stylesheet" type="text/css">
+     <link rel="preload" href="assets/fonts/font-awesome/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+     <link rel="preload" href="assets/fonts/font-awesome/css/fontawesome.min.css" as="style" onload="this.rel='stylesheet'">
+     
+     <link rel="stylesheet preload" href="assets/fonts/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+     <!-- <link rel="stylesheet preload" href="assets/css/slick/fonts/slick.woff" as="font" type="font/woff" crossorigin="anonymous"> -->
+
+    <!-- Bootstrap CSS -->
+    <link id="bootstrap" href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" media="all">
+    <!-- Slick Slider CSS -->
+    <link id="slick-css" href="assets/css/slick/slick.css" rel="stylesheet" media="all">
+    <!-- Slick Slider theme CSS -->
+    <link id="slick-theme" href="assets/css/slick/slick-theme.css" rel="stylesheet" media="all"> 
+    <!-- Hover CSS -->
+    <link id="hover" href="assets/css/hover-master/css/hover-min.css" rel="stylesheet" media="all">
+    <!-- Hover CSS -->
+    <link rel="preload" href="assets/css/mobile-navigation/css/style.css" as="style" onload="this.rel='stylesheet'">
+    <!-- Style CSS -->
+    <link id="style" href="style.css" rel="stylesheet" media="all">
+
+    <title>Olá, mundo!</title>
+
+</head>
+<body>
+        <div id="preloader"></div>
+        <!-- Header -->
+        <header id="header">
+
+            <!-- navbar bobile -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top main-navigation d-xl-none">
+                <div class="container-fluid">
+                    <a class="navbar-brand order-2 order-lg-1 mr-auto mr-lg-3 ml-3 ml-lg-0" href="#"><img class="img-fluid" width="200" height="" src="assets/images/logotipo.png" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="overlay d-flex d-lg-none"></div>
+
+                    <div class="order-lg-2 bg-dark d-lg-flex w-100 sidebar pb-3 pb-lg-0">
+                        <ul class="navbar-nav mr-lg-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2 active" aria-current="page" href="#" ><i class="fas fa-home"></i></a> 
+                                <form class="d-flex cx-pesquisa px-2">
+                                    <input class="form-control" type="search" placeholder="Pesquisa" aria-label="Search">
+                                    <button class="btn btn-pesquisa" type="submit"><i class="fas fa-search"></i></button>
+                                </form>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Associa-se</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Anuidade</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Notícias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Eventos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Área do Associado</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Prova de Título</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3 px-lg-2" href="#">Contato</a>
+                            </li>
+                           
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link px-3 px-lg-2 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+            <!-- /navbar bobile -->
+            
+            <!-- Header principal -->
+            <div class="d-none d-sm-block" id="main-header" >
+                
+                <div class="container">
+                
+                <div class="row">
+
+                    <!-- Logo -->
+                    <div id="logo" class="col-lg-3 col-md-3 col-sm-3 py-md-4">
+                        <a href="index.html"><img class="lazy" width="220" height="36" src="assets/images/logotipo.png" alt="Logo"></a>
+                    </div>
+                    <!-- /Logo -->
+                    
+                    <!-- Bloco Estático -->
+                    <div class="col-lg-3 col-md-4 col-sm-4">
+                        
+                        
+                        
+                    </div>
+   
+                    <div class="col-lg-6 col-md-4 col-sm-12 d-flex align-items-center justify-content-end">
+                        <form class="d-flex cx-pesquisa px-2">
+                            <input class="form-control" type="search" placeholder="Pesquisa" aria-label="Search">
+                            <button class="btn btn-pesquisa" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                        <div class="botoes d-flex">
+                            <a id="btn-associado" class="btn bt btn-primary rounded-pill btn-md btn-associado m-1" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" role="button"><i class="fas fa-user"></i> Área do associado</a>
+                            <a id="btn-associa-se" class="btn btn-primary rounded-pill btn-md btn-associa-se m-1" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" role="button"><i class="far fa-edit"></i> Associa-se</a>
+                        </div>    
+                    </div>
+
+                </div>
+                
+                </div>
+                
+            </div>
+            <!-- /Header principal -->
+
+            <!-- Menu principal -->
+            <div id="main-menu">
+
+                <div class="container">
+                
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid p-0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active hvr-back-pulse" aria-current="page" href="#"><i class="fas fa-home"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle hvr-back-pulse" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quem Somos</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link hvr-back-pulse" href="#">Associe-se</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Anuidade</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Cursos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Notícas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Área do Associado</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Prova de Título</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hvr-back-pulse" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    </nav>
+
+                </div>
+                
+            </div>
+            <!-- /Menu principal -->
+
+        </header>
+        <!-- /Header -->
+
+        <!-- Wrapper Slider -->
+        <div class="wrapper">
+            <!-- Slik Slider -->
+            <div class="slider">
+                <div class="item">
+                    <div class="lazy slick-slide-bg" style="background-image: url('http://localhost/temas/html/assets/images/1.webp');"></div>
+                </div>
+                <div class="item">
+                    <div class="lazy slick-slide-bg" style="background-image: url('http://localhost/temas/html/assets/images/2.webp');"></div>
+                </div>
+                <div class="item">
+                    <div class="lazy slick-slide-bg" style="background-image: url('http://localhost/temas/html/assets/images/3.webp');"></div>
+                </div>
+            </div>
+            <!-- /Slik Slider -->
+        </div>
+        <!-- /Wrapper Slider -->
+
+        <!-- links rapidos -->
+        <div class="links-rapidos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 p-1">
+                        <a href="#" class="box-link hvr-ripple-out">
+                            <h4>MULTIMÍDIA</h4>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 p-1">
+                        <a href="#" class="box-link hvr-ripple-out">
+                            <h4>CENTRAL DE AJUDA</h4>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 p-1">
+                        <a href="#" class="box-link hvr-ripple-out">
+                            <h4>EVENTOS</h4>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-12 p-1">
+                        <a href="#" class="box-link hvr-ripple-out">
+                            <h4>ENSINO A DISTÂNCIA</h4>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /links rapidos -->
+
+        <!-- section  Noticias Destques -->
+        <section class="noticias-destaques">
+            <h2 class="title-section text-center">Últimas Notícias</h2>
+            <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-3 mb-3 post">
+                            <!-- Blog Post -->
+                            <div class="card">
+                                
+                                <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-001.jpg"></div>
+                                <div class="card-body">
+                                    <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                                    
+                                    <div class="post-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                                    </div>
+                                    
+                                    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="button read-more-button big button-arrow rounded-pill">Leia mais <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- /Blog Post -->
+                        </div>
+
+                        <div class="col-md-3 mb-3 post">
+                            <!-- Blog Post -->
+                            <div class="card">
+                                
+                                <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-002.jpg"></div>
+                                <div class="card-body">
+                                    <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                                    
+                                    <div class="post-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                                    </div>
+                                    
+                                    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="button read-more-button big button-arrow rounded-pill">Leia mais <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- /Blog Post -->
+                        </div>
+
+                        <div class="col-md-3 mb-3 post">
+                            <!-- Blog Post -->
+                            <div class="card">
+                                
+                                <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-003.jpg"></div>
+                                <div class="card-body">
+                                    <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                                    
+                                    <div class="post-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                                    </div>
+                                    
+                                    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="button read-more-button big button-arrow">Leia mais <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- /Blog Post -->
+                        </div>
+
+
+                        <div class="col-md-3 mb-3 post">
+                            <!-- Blog Post -->
+                            <div class="card">
+                                
+                                <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-005.jpg"></div>
+                                <div class="card-body">
+                                    <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                                    
+                                    <div class="post-meta">
+                                        <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                                    </div>
+                                    
+                                    <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="button read-more-button big button-arrow">Leia mais <i class="fas fa-arrow-circle-right"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- /Blog Post -->
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="d-md-flex justify-content-end mt-md-3">
+                            <a class="btn btn-primary rounded-pill" href="#" role="button">Ver mais notícias <i class="fas fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- /section  Noticias Destques -->
+
+        <!-- section Localizador -->
+        <section id="localizador" class="Localizador">
+            <h2 class="title-section text-center">Localizador Profissional</h2>
+            <div class="container">
+                <div class="row">
+                    <form id="formLocalizadorProfissional" class="d-md-flex justify-content-center align-items-center container pb-5">
+                        <div class="col-auto m-1">
+                            <label for="nome" class="visually-hidden">Nome</label>
+                            <input type="text" class="form-control rounded-pill" id="nome" placeholder="Nome">
+                        </div>
+                        <div class="col-auto m-1">
+                            <label for="email" class="visually-hidden">E-mail</label>
+                            <input type="email" class="form-control rounded-pill" id="email" placeholder="E-mail">
+                        </div>
+                        <div class="col-auto m-1">
+                            <select id="estado" class="form-select rounded-pill" aria-label="Default select example" name="uf">
+                                <option selected="selected" label="Estado" value="">Estado</option>
+                                <option label="AC" value="AC">AC</option>
+                                <option label="AL" value="AL">AL</option>
+                                <option label="AP" value="AP">AP</option>
+                                <option label="AM" value="AM">AM</option>
+                                <option label="BA" value="BA">BA</option>
+                                <option label="CE" value="CE">CE</option>
+                                <option label="DF" value="DF">DF</option>
+                                <option label="ES" value="ES">ES</option>
+                                <option label="GO" value="GO">GO</option>
+                                <option label="MA" value="MA">MA</option>
+                                <option label="MT" value="MT">MT</option>
+                                <option label="MS" value="MS">MS</option>
+                                <option label="MG" value="MG">MG</option>
+                                <option label="PA" value="PA">PA</option>
+                                <option label="PB" value="PB">PB</option>
+                                <option label="PR" value="PR">PR</option>
+                                <option label="PE" value="PE">PE</option>
+                                <option label="PI" value="PI">PI</option>
+                                <option label="RJ" value="RJ">RJ</option>
+                                <option label="RN" value="RN">RN</option>
+                                <option label="RS" value="RS">RS</option>
+                                <option label="RO" value="RO">RO</option>
+                                <option label="RR" value="RR">RR</option>
+                                <option label="SC" value="SC">SC</option>
+                                <option label="SP" value="SP">SP</option>
+                                <option label="SE" value="SE">SE</option>
+                                <option label="TO" value="TO">TO</option>
+                            </select>
+                        </div>
+                        <div class="col-auto m-1 d-grid">
+                            <button type="submit" class="btn btn-primary rounded-pill"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+
+                    <div  id="result-localizador">
+
+                    </div>
+                     
+                </div>      
+            </div>
+        </section>
+        <!-- /section Localizador -->
+
+        <!-- section  Próximos eventos -->
+        <section class="noticias-destaques">
+            <h2 class="title-section text-center">Póximos Eventos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 ">
+                        <!-- Blog Post -->
+                        <div class="blog-post">
+                            
+                            <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-002.jpg"></div>
+                            
+                            <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                            
+                            <div class="post-meta">
+                                <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                            </div>
+                            
+                            <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                            
+                            <a href="#" class="button read-more-button big button-arrow"><i class="fas fa-arrow-circle-right"></i> Leia mais</a>
+                            
+                        </div>
+                        <!-- /Blog Post -->
+                    </div>
+                    <div class="col-md-4 mb-3 ">
+                        <!-- Blog Post -->
+                        <div class="blog-post">
+                            
+                            <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-002.jpg"></div>
+                            
+                            <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                            
+                            <div class="post-meta">
+                                <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                            </div>
+                            
+                            <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                            
+                            <a href="#" class="button read-more-button big button-arrow"><i class="fas fa-arrow-circle-right"></i> Leia mais</a>
+                            
+                        </div>
+                        <!-- /Blog Post -->
+                    </div>
+                    <div class="col-md-4 mb-3 ">
+                        <!-- Blog Post -->
+                        <div class="blog-post">
+                            
+                            <div class="lazy-noticia post-image" data-src="http://localhost/temas/html/assets/images/posts/entry-002.jpg"></div>
+                            
+                            <h4 class="post-title"><a href="blog-single-sidebar.html">Vestibulum iaculis </a></h4>
+                            
+                            <div class="post-meta">
+                                <span><i class="fas fa-calendar-alt"></i> 01/03/2021</span>
+                            </div>  
+                            
+                            <p>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+                            
+                            <a href="#" class="button read-more-button big button-arrow"><i class="fas fa-arrow-circle-right"></i> Leia mais</a>
+                            
+                        </div>
+                        <!-- /Blog Post -->
+                    </div>
+                </div>
+                <div class="d-md-flex justify-content-end mt-md-3">
+                    <a class="btn btn-primary rounded-pill" href="#" role="button">Ver mais eventos <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- /section  Próximos eventos -->
+
+        <!-- section  Parceiros -->
+        <section class="empresas-apoiadoras">
+            <h2 class="title-section text-center">Empresas Apoiadoras</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                         <div class="parceiros">
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-javascript.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-angular.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-jquery.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-vue.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-wordpress.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-node-js.jpg"></div>
+                            <div class="lazy-parceiros item-logotipo m-2" data-src="assets/images/logotipos/logotipo-mysql.jpg"></div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section  Parceiros -->
+
+        <footer id="footer">
+            
+            <div class="container">
+                
+                <!-- Main Footer -->
+                <div id="main-footer">
+                    
+                    <div class="row">
+                        
+                        <div class="widget col-lg-3 col-md-3 col-sm-6 pb-4">
+
+                            <!-- Logo -->
+                            <div id="logo-footer" class="col-lg-12 col-md-12 col-sm-12 pb-3">
+
+                                <a class="text-sm-center" href="index.html"><img width="220" height="36" src="assets/images/logotipo.png" alt="Logo"></a>
+
+                            </div>
+                            <!-- /Logo -->
+                            
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                            
+                        </div>
+                        
+                        <div class="widget col-lg-3 col-md-3 col-sm-6 pb-3">
+                            
+                            <h4>Institucional</h4> 
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    
+                                    <ul class="menu pb-ms-4">
+                                        <li><a href="#">Quem somos</a></li>
+                                        <li><a href="#">Diretroia</a></li>
+                                        <li><a href="#">Colaboradores</a></li>
+                                        <li><a href="#">Estatuto</a></li> 
+                                        <li><a href="#">Comissões</a></li>
+                                        <li><a href="#">Departamentos</a></li>
+                                    </ul>
+                                    
+                                </div>
+                                
+                                <div class="widget col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    
+                                    <ul class="menu pb-ms-4">
+                                        <li><a href="#">Notícias</a></li>
+                                        <li><a href="#">Eventos</a></li>
+                                        <li><a href="#">Publicações</a></li>
+                                        <li><a href="#">Webnair</a></li> 
+                                        <li><a href="#">Parcerias</a></li>
+                                        <li><a href="#">Contato</a></li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>   
+                        </div>
+                        
+                        <div class="widget col-lg-3 col-md-3 col-sm-6 pb-3">
+                            
+                            <h4>Área do associado</h4>
+                            
+                            <ul class="menu">
+                                <li><a href="#">Esqueci minha menha</a></li>
+                                <li><a href="#">Dúvida sobre o acesso</a></li>
+                                <li><a href="#">Cadastre-se</a></li>
+                                <li><a href="#">Área restrita</a></li> 
+                            </ul>
+                            
+                        </div>
+                        
+                        <div class="widget col-lg-3 col-md-3 col-sm-6 pb-3">
+
+                            <h4>Redes sociais</h4>
+                            
+                            <p class="contato_text"><i class="fa fa-phone"></i><span>(+30) 210 1234567</span></p>
+                            <p class="contato_text"><i class="fa fa-envelope"></i><span><a href="">info@plethorathemes.com</a></span></p>
+                            
+                            <p class="contato_text"><a href="#" target="_blank"><i class="fa fa-location-arrow"></i></a><span>Av. Santos Dumont, 1687
+                                Cj 301 a 303 - Aldeota
+                                CEP: 60150-161</span></p>
+                                <p class="contato_text">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-youtube">   </i></a>
+                                </p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- /Main Footer -->
+                
+                <!-- Lower Footer -->
+                <div id="lower-footer">
+                    
+                    <div class="row">
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-4 ">
+                        
+                            <p class="copyright p-0">© 2016 Itarget. Todos os direitos reservados.</p>
+                            
+                        </div>
+                        
+                        <div class="col-lg-8 col-md-8 col-sm-8 ">
+                            
+                           
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- /Lower Footer -->       
+
+            </div>     
+        
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    teste
+                </div>
+            </div>
+          </div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script async src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+    <!-- slick Slider -->
+    <script defer src="assets/js/slick/slick.min.js"></script>
+    <!-- Mobile Navigation -->
+    <script src="assets/js/mobile-navigation/js/swiped-events.js"></script>
+    <!-- Datatable -->
+    <script src="assets/js/datatable/jquery.dataTables.min.js"></script>
+    <script src="assets/js/datatable/dataTables.bootstrap5.min.js" ></script>
+    <script src="assets/js/datatable/dataTables.select.min.js"></script>
+    <!-- Lazy Load -->
+    <script src="assets/js/lazyload/jquery.lazy.min.js"></script>
+    <!-- Mask Master -->
+    <script src="assets/js/mask/jquery.mask.min.js"></script>
+    
+    <!-- Script Principal -->
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
